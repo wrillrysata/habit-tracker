@@ -1,0 +1,14 @@
+{
+  "name": "habit-tracker-app",
+  "version": "1.0.0",
+  "description": "A web app to keep track of healthy habits",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel server -d dist",
+    "start": "NODE_ENV=production && node server.js",
+    "dev": "NODE_ENV=development && npm run build && nodemon dist/server.js"
+  },
+  "repository": "https://github.com/Ijebusoma/habit-tracker",
+  "author": "Team-X",
+  "license": "MIT"
+}
